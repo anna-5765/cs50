@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: 5.47s worst case; 1.14s best case
+
+sort2 uses: Merge Sort
+
+How do you know?: 1.14s worst case; 0.67s best case
+
+sort3 uses: Selection Sort
+
+How do you know?: 3.21s worst case; 2.58s best case
