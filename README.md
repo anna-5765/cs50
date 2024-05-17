@@ -6,5 +6,5 @@ Week 0: [Scratch](https://scratch.mit.edu/projects/987531686/)
 Week 1: C  
 Week 2: Arrays  
 Week 3: Algorithms  
-        🏁 Tideman (Hard❗)(used bubble sort and recursion)
-Week 4: Memory
+        🏁 Tideman (Hard❗)(used bubble sort and recursion)  
+Week 4: Memory  
