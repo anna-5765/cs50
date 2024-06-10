@@ -8,3 +8,6 @@ Week 2: Arrays
 Week 3: Algorithms  
 &nbsp;&nbsp;&nbsp;🏁 Tideman (Hard❗)(includes bubble sort and recursion)  
 Week 4: Memory  
+&nbsp;&nbsp;&nbsp;🏁 Filter-less/more (helpers.c)(image filtration)  
+&nbsp;&nbsp;&nbsp;🏁 Recover (write images from memory card to .jpg)  
+Week 5: Data Structures
