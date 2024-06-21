@@ -1,6 +1,8 @@
 # cs50
 
-Code from my intro to computer science studies. This material is from CS50x, HarvardX's online CS50 class.
+Code from my intro to computer science studies. This material is from CS50x, HarvardX's online CS50 class. 
+  
+(🏁 details notable problems & solutions)
 
 Week 0: [Scratch](https://scratch.mit.edu/projects/987531686/)  
 Week 1: C  
@@ -10,4 +12,6 @@ Week 3: Algorithms
 Week 4: Memory  
 &nbsp;&nbsp;&nbsp;🏁 Filter-less/more (helpers.c)(image filtration)  
 &nbsp;&nbsp;&nbsp;🏁 Recover (write images from memory card to .jpg)  
-Week 5: Data Structures
+Week 5: Data Structures  
+&nbsp;&nbsp;&nbsp;🏁 Speller (dictionary.c)(hash functions)  
+Week 6: Python
