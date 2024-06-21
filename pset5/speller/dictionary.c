@@ -153,7 +153,7 @@ unsigned int size(void)
 // Unloads dictionary from memory, returning true if successful, else false
 bool unload(void)
 {
-    //
+    // Create traversal pointer and free memory
     node *ptr = NULL;
     for (int i = 0; i < N; i++)
     {
