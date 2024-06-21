@@ -2,7 +2,7 @@
 
 Code from my intro to computer science studies. This material is from CS50x, HarvardX's online CS50 class. 
   
-(🏁 details notable problems & solutions)
+(🏁 details notable problems & my solutions)
 
 Week 0: [Scratch](https://scratch.mit.edu/projects/987531686/)  
 Week 1: C  
