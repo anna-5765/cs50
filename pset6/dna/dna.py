@@ -19,9 +19,9 @@ def main():
             database.append(row)
 
     # Convert STR lengths in database to integers from strings
-    for people in database:
+    for person in database:
         # inspired by stack overflow list comprehension string/int searches
-        people.update({k: int(v) if v.isnumeric() else v for k, v in people.items()})
+        person.update({k: int(v) if v.isnumeric() else v for k, v in person.items()})
 
     # Read DNA sequence file into a variable
     with open(sys.argv[2], "r") as f:
@@ -35,12 +35,12 @@ def main():
         str_in_dna[STR] = longest_match(dna_sequence, STR)
 
     # Check database for matching profiles
-    for people in database:
-        # check if the STR counts in the sequence is a subset of each person in the people database
+    for person in database:
+        # check if the STR counts in the sequence is a subset of each person in the database
         # geeksforgeeks check if one dictionary is subset of other
-        match = str_in_dna.items() <= people.items()
+        match = str_in_dna.items() <= person.items()
         if match:
-            return print(people["name"])
+            return print(person["name"])
 
     return print("No match")
 
