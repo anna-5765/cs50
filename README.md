@@ -14,4 +14,7 @@ Week 4: Memory
 &nbsp;&nbsp;&nbsp;🏁 Recover (write images from memory card to .jpg)  
 Week 5: Data Structures  
 &nbsp;&nbsp;&nbsp;🏁 Speller (dictionary.c)(hash functions)  
-Week 6: Python
+Week 6: Python  
+&nbsp;&nbsp;&nbsp;🏁 DNA (dna.py)(dictionaries)  
+Artificial Intelligence  
+
