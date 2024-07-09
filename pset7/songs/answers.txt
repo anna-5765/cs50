@@ -1,0 +1,12 @@
+1. Spotify's top 100 songs from 2018 have an average energy (intensity) of 0.659,
+valence (positivity) of 0.485, and danceability (tempo, rhythm stability, beat strength) of 0.716.
+If this were representative of a single listener, I would characterize their audio aura as
+more on the bold and rebellious type since it has a relatively high energy and daceability,
+however not necessarily positive or happy with a lower valence.
+
+2. This might not be very representative of the user because people are complex and can listen to different songs for different reasons.
+For example, a person could listen to high energy music when working out, but melodic and wordless music when studying. When averaging these two music
+profiles, this could result in an entirely different profile for the user. Maybe instead of creating a single audio aura, it would be more representative to
+characterize a few different "moods" from the user in a similar way and showing the percentage of listen time spent within those confines. Another method could
+be to group songs within a certain standard deviation of one another in energy, valence, and danceability, and report on the largest group.
+
