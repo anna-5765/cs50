@@ -17,4 +17,7 @@ Week 5: Data Structures
 Week 6: Python  
 &nbsp;&nbsp;&nbsp;🏁 DNA (dna.py)(dictionaries)  
 Artificial Intelligence  
+Week 7: SQL  
+&nbsp;&nbsp;&nbsp;🏁 Fiftyville (log.sql)(search database, solve crime)  
+Week 8: HTML, CSS, JavaScript  
 
