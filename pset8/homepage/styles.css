@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    border-radius: 12px;
+}
+
+.flex-container{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Top Banner Styling */
+.top-banner {
+    color: #67645e;
+    background-color: #f1f0ed;
+    height: 40px;
+    font-size: 13px;
+    font-weight: 100;
+    text-align: center;
+    line-height: 40px;
+    margin: 16px;
+}
+
+/* Menu Banner Styling */
+.flex-box-menu{
+    color: #67645e;
+    background-color: #f1f0ed;
+    height: 50px;
+    font-size: 45px;
+    font-weight: 200;
+    line-height: 45px;
+    margin: 16px 16px 0px 16px;
+    border-radius: 12px 12px 0 0;
+}
+
+/* Create Table and Space Menu Banner Items */
+.table-top-banner {
+    table-layout: fixed;
+    width: 100%;
+}
+
+#menu {
+    text-align: left;
+}
+
+#name {
+    text-align: center;
+}
+
+/* For troubleshooting purposes */
+/* td {
+    border: 2px solid;
+} */
+
+/* Classes to Change Color of Bootstrap Menu Button */
+.grey-background {
+    background-color: #f1f0ed;
+    border-color: #f1f0ed;
+}
+
+.match-font {
+    color: #67645e;
+    font-family: "Helvetica", sans-serif;
+    font-size: 13px;
+}
+
+/* Search Bar Styling */
+form {
+    color: inherit;
+    height: 25px;
+    line-height: 19px;
+    width: 210px;
+    float: right;
+    display: flex;
+    margin: 10px;
+    padding: 2px;
+    border: 1px solid #84827E;
+    border-radius: 5px;
+}
+input[type="search"] {
+    border: none;
+    background: transparent;
+    padding: 0px 5px;
+    margin: 0;
+    font-size: 13px;
+    color: inherit;
+    border: 1px solid transparent;
+    border-radius: inherit;
+}
+input[type="search"]::placeholder {
+    color: #bbb;
+}
+button[type="submit"] {
+    text-indent: -999px;
+    overflow: hidden;
+    width: 45px;
+    padding: 0;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: inherit;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
+    cursor: pointer;
+    opacity: 0.7;
+}
+button[type="submit"]:hover {
+    opacity: 1;
+}
+
+/* Intro Styling */
+.flex-box-intro {
+    color: #67645e;
+    background-color: #f1f0ed;
+    height: auto;
+    text-align: center;
+    border-radius: 0 0 12px 12px;
+    margin: 0px 16px 16px 16px;
+}
+
+/* Intro Photo Styling */
+.flex-box-intro > img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8*/
+    border-radius: 0 0 12px 12px;
+}
+
+/* Bio Styling */
+.flex-box-bio {
+    color: #67645e;
+    background-color: #f1f0ed;
+    height: 250px;
+    text-align: center;
+    border-radius: 12px;
+    margin: 16px;
+}
+
+#bio-header {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100px;
+    margin: 20px 0 0 0;
+}
+
+#bio-p1 {
+    font-size: 16px;
+    font-weight: 100;
+    margin: 0 50px 0 50px;
+}
+
+/* Professional Info List Styling */
+.flex-box-professional-info {
+    color: #67645e;
+    background-color: #f1f0ed;
+    height: 500px;
+    text-align: left;
+    margin: 16px;
+}
+
+.table-professional-items {
+    table-layout: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+#my-approach-text, #solo-learning-text {
+    display: none;
+}
+
+.prof-list-result {
+    color: #67645e;
+    font-family: "Helvetica", sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin: 50px 50px 0 50px;
+}
+
+#prof-list-items {
+    vertical-align: bottom;
+}
+
+.list-font {
+    color: #67645e;
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 70%;
+    background: none;
+    margin: 0 16px 16px 16px;
+    border-radius: 0;
+}
+li:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+/* CS50 Project Carousel */
+.flex-box-projects {
+    color: #67645e;
+    background-color: #f1f0ed;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8*/
+    text-align: center;
+    padding-top: 30px;
+    margin: 16px;
+}
+
+.move-caption-center {
+    top: 0;
+    margin: 150px 0 0 0;
+}
+
+.c-item {
+    height: 500px;
+    margin-top: 10px;
+}
+
+.c-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+/* About Me & Links Styling */
+.about-me {
+    color: #67645e;
+    background-color: #f1f0ed;
+    text-align: center;
+    padding: 10px 0 1px 0;
+    margin: 0;
+    border-radius: 0;
+}
+.favorites-ul {
+    padding-left: 0;
+}
+.favorites-list {
+    color: #67645e;
+    list-style-type: none;
+}
+.favorites-link {
+   color: #67645e;
+}
+
+/* Individual About Me Pages Styling */
+.favorites {
+    color: #67645e;
+    background-color: #f1f0ed;
+    text-align: center;
+    margin: 16px;
+    padding: 12px 0 12px 0;
+}
+.back {
+    color: #f1f0ed;
+    background-color: #67645e;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+}
+
+/* Small Device Styling */
+@media (max-width: 600px) {
+
+    /* Size text in flex-boxes */
+    #bio-header, #bio-p1, .prof-list-result {
+        margin: 5px;
+    }
+    #bio-header {
+        line-height: 40px;
+    }
+
+    /* Show only search button */
+    form {
+        width: 35px;
+        float: right;
+        border: none;
+    }
+    input[type="search"] {
+        display: none;
+    }
+    button[type="submit"] {
+        width: 20px;
+    }
+}

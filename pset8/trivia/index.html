@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Sailing Trivia! ⛵</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- Add multiple choice question here -->
+                <h3>How many nautical miles is the longest sailing race in the world?</h3>
+                <button class="i" data-paragraph="result1" id="q1-i1" >100</button>
+                <button class="i" data-paragraph="result1" id="q1-i2" >1,000</button>
+                <button class="c" data-paragraph="result1" id="q1-c1"
+                        data-correct-text="Correct! The Volvo Ocean Race, now known as <a href='https://www.theoceanrace.com/'>The Ocean Race</a> covers approximately 45,000 nautical miles. It circumnavigates the globe and takes over 9 months to complete!">45,000</button>
+                <button class="i" data-paragraph="result1" id="q1-i3">75,000</button>
+                <p id="result1"></p>
+
+                <h3>The oldest trophy in international sports belongs to sailing, specifically the America’s Cup. What year was it first awarded?</h3>
+                <button class="i" data-paragraph="result2" id="q2-i1">1776</button>
+                <button class="c" data-paragraph="result2" id="q2-c1"
+                        data-correct-text="Correct! It was won by the <i>America</i>, a schooner from New York City. The event was originally called the Hundred Guinea Cup, but was subsequently titled after its first victor.">1851</button>
+                <button class="i" data-paragraph="result2" id="q2-i2">1901</button>
+                <button class="i" data-paragraph="result2" id="q2-i3">1926</button>
+                <p id="result2"></p>
+
+                <h3>Not all sailboats are slow- the world record for fastest sailing speed is held by <i>Vestas Sailrocket 2</i> at how many knots?</h3>
+                <button class="i" data-paragraph="result3" id="q3-i1">54</button>
+                <button class="i" data-paragraph="result3" id="q3-i2">61</button>
+                <button class="c" data-paragraph="result3" id="q3-c1"
+                        data-correct-text="Correct! This is around 75 mph (121 km/h).">65.45</button>
+                <p id="result3"></p>
+
+                <h3>There are a lot of different types of boats out there. Which of these isn't one of them?</h3>
+                <button class="i" data-paragraph="result4" id="q4-i1">Schooner</button>
+                <button class="i" data-paragraph="result4" id="q4-i2">Sloop</button>
+                <button class="i" data-paragraph="result4" id="q4-i3">Yawl</button>
+                <button class="c" data-paragraph="result4" id="q4-c1"
+                        data-correct-text="Correct! Though there IS a Ketch. Common differing features include number, type, and location of masts, sails, and rigging.">Sketch</button>
+                <p id="result4"></p>
+
+                <h3>NATO created the phonetic alphabet used in the maritime world to help communicate clearly and precisely, since so much communication is done through radios and sometimes in loud, windy conditions. Which is the letter “F” in NATO’s phonetic alphabet?</h3>
+                <button class="i" data-paragraph="result5" id="q5-i1">FRANK</button>
+                <button class="i" data-paragraph="result5" id="q5-i2">FOREST</button>
+                <button class="c" data-paragraph="result5" id="q5-c1"
+                        data-correct-text="Correct! The numbers are pronounced the same, except 9 is sometimes called niner so as not to be confused with 5.">FOXTROT</button>
+                <button class="i" data-paragraph="result5" id="q5-i3">FLAMINGO</button>
+                <p id="result5"></p>
+
+                <h3>When entering the territorial waters of another country by boat, what color flag must be flown?</h3>
+                <button class="c" data-paragraph="result6" id="q6-c1"
+                        data-correct-text="Correct! The yellow flag is the international signal for 'my boat is healthy,' and in effect, invites Customs Officers to inspect your vessel. This can be changed once the inspection's complete or after a certain waiting period.">Yellow</button>
+                <button class="i" data-paragraph="result6" id="q6-i1">Green</button>
+                <button class="i" data-paragraph="result6" id="q6-i2">Blue</button>
+                <button class="i" data-paragraph="result6" id="q6-i3">The flag of that country</button>
+                <p id="result6"></p>
+
+                <h3>Early sailing navigation was done celestially using a device called a sextant. When using the stars to determine your position, you must know when noon at the Prime Meridian is to calculate longitude. Doing your calculations with a time that's off by how much will result in an error of 1 nautical mile?</h3>
+                <button class="i" data-paragraph="result7" id="q7-i1">9 minutes</button>
+                <button class="i" data-paragraph="result7" id="q7-i2">45 seconds</button>
+                <button class="i" data-paragraph="result7" id="q7-i3">19 minutes</button>
+                <button class="c" data-paragraph="result7" id="q7-c1"
+                        data-correct-text="Correct! Thank you modern GPS.">4 seconds</button>
+                <p id="result7"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- Add free response question here -->
+                <h3>Sailing races have recently experienced a surge in hydrofoil racers. These vessels can get upwards of 50 knots, but their speed is limited by their technology and the process of _________, also known as the formation of small vapor-filled cavities in a liquid.</h3>
+                <input type="text" class="free-response" data-paragraph="fresponse_result1" data-question="q1" data-answer="cavitation">
+                <input type="submit" data-question="q1" >
+                <p id="fresponse_result1"></p>
+
+                <h3>In hydrofoil sailing, as the vessel accelerates, the main hull is designed to ______ the water. This produces a lot less drag!</h3>
+                <input type="text" class="free-response" data-paragraph="fresponse_result2" data-question="q2" data-answer="leave">
+                <input type="submit" data-question="q2">
+                <p id="fresponse_result2"></p>
+
+                <h3>What is the general term for a sailboat with two hulls?</h3>
+                <input type="text" class="free-response" data-paragraph="fresponse_result3" data-question="q3" data-answer="catamaran">
+                <input type="submit" data-question="q3">
+                <p id="fresponse_result3"></p>
+
+                <h3>An important part of boat safety is to check the _______ before going out. Getting caught in a squall can be dangerous.</h3>
+                <input type="text" class="free-response" data-paragraph="fresponse_result4" data-question="q4" data-answer="weather">
+                <input type="submit" data-question="q4">
+                <p id="fresponse_result4"></p>
+            </div>
+
+
+        </div>
+    </body>
+    <footer>
+        <p> Information sourced from <a href='https://www.asa.com/'>The American Sailing Association</a></p>
+    </footer>
+    <script>
+
+        // Run script once DOM is loaded
+        document.addEventListener('DOMContentLoaded', function() {
+
+            // Check answers to multiple choice questions
+            let incorrect_buttons = document.querySelectorAll('.i');
+            for (let button of incorrect_buttons) {
+                button.addEventListener('click', function() {
+                    this.style.backgroundColor = 'red';
+                    let paragraph_id = button.dataset.paragraph;
+                    document.getElementById(paragraph_id).innerHTML = "Incorrect.";
+                });
+            }
+
+            let correct_buttons = document.querySelectorAll('.c');
+            for (let button of correct_buttons) {
+                button.addEventListener('click', function() {
+                    this.style.backgroundColor = 'green';
+                    let paragraph_id = button.dataset.paragraph;
+                    let correct_text = button.dataset.correctText;
+                    document.getElementById(paragraph_id).innerHTML = correct_text;
+                });
+            }
+
+            // Check answers to free response questions
+            let fr_questions = document.querySelectorAll('input[type="text"]');
+            let submit_buttons = document.querySelectorAll('input[type="submit"]');
+            for (let submit of submit_buttons) {
+                submit.addEventListener('click', function() {
+                    for (let question of fr_questions) {
+                        if (question.dataset.question === submit.dataset.question) {
+                            let input = question.value;
+                            let answer = question.dataset.answer;
+                            let paragraph_id = question.dataset.paragraph;
+                            if (input === answer) {
+                                question.style.backgroundColor = 'green';
+                                document.getElementById(paragraph_id).innerHTML = "Correct!";
+                            } else {
+                                question.style.backgroundColor = 'red';
+                                document.getElementById(paragraph_id).innerHTML = "Incorrect.";
+                            }
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+</html>

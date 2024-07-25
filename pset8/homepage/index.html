@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Homepage</title>
+    </head>
+    <body>
+        <div class="flex-container">
+            <div class="top-banner">
+                <p class="top-banner">HOMEPAGE MADE FOR CS50x</p>
+            </div>
+            <div class="flex-box-menu">
+                <table class="table-top-banner">
+                    <tr>
+                    <td id="menu">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle grey-background" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="33" fill="#84827E" class="bi bi-list" viewBox="0 0 22 14">
+                                    <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+                                </svg>
+                            </button>
+                            <ul class="dropdown-menu grey-background">
+                              <li><a class="dropdown-item match-font" href="#bio">BIO</a></li>
+                              <li><a class="dropdown-item match-font" href="#professional-info">PROFESSIONAL INFO</a></li>
+                              <li><a class="dropdown-item match-font" href="#cs50-projects">CS50 PROJECTS</a></li>
+                            </ul>
+                         </div>
+                    </td>
+                    <td id="name">
+                        anna
+                    </td>
+                    <td id="search-icon">
+                        <!-- Currently NO js written for actual search functionality,
+                         alert insead. Included because I wanted to create the visual element,
+                         advanced search functionality out of scope for this project. -->
+                        <form>
+                            <input type="search" id="search" placeholder="Search...">
+                            <button type="submit">Search</button>
+                        </form>
+                    </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="flex-box-intro" id="intro">
+                <img src="images/IMG_0607.JPG" alt="graduation photo">
+            </div>
+            <div class="flex-box-bio" id="bio">
+                <p id="bio-header">HEY THERE!</p>
+                <p id="bio-p1">My name’s Anna and I’m a Mechanical Engineer. Recently, I’ve taken an ​interest in robotics & autonomy, working through the Duckietown curriculum ​of self-driving vehicles. I like programming, hands-on engineering and test, and ​learning something new. While I've done a bit of coding, I'm taking CS50 to formally learn the basics!</p>
+            </div>
+            <div class="flex-box-professional-info" id="professional-info">
+                <table class="table-professional-items">
+                    <tr>
+                        <td>
+                            <div class="prof-list-result">
+                                <div id="career-story-text">
+                                <h3>Career Story</h3>
+                                    <p>With roots in theoretical math and physics, engineering simulation, ​physical fabrication, test, and problem solving, my interest in ​Mechanical Engineering stemmed from my education at Purdue ​University.</p>
+                                    <p>After college I worked in manufacturing engineering for 5 years, before ​deciding to pivot. I started learning robotics and autonomy, and I’m ​currently pursuing interests that lie in the creative space of tech and ​technical problem solving.</p>
+                                </div>
+                                <div id="my-approach-text">
+                                    <h3>My Approach</h3>
+                                        <p>As a positive, team-oriented, do-er, I thrive in environments with high energy ​and passion for working toward a common goal.</p>
+                                </div>
+                                <div id="solo-learning-text">
+                                    <h3>Solo Learning</h3>
+                                        <h5>CS50x: HarvardX on edX</h5>
+                                            <p>Harvard University's intro to Computer Science.</p>
+                                        <h5>Self-Driving Cars with Duckietown: ETHx on edX</h5>
+                                            <p>ETH Zurich's course focused on familiarizing and applying professional ​tools and workflows used in modern day robotics.</p>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="prof-list-items">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item list-font" id="career-story" data-block-id="career-story-text">Career Story</li>
+                                <li class="list-group-item list-font" id="my-approach" data-block-id="my-approach-text">My Approach</li>
+                                <li class="list-group-item list-font" id="solo-learning" data-block-id="solo-learning-text">Solo-Learning</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="flex-box-projects">
+                <h3>CS50 Projects</h3>
+                <div id="projects-carousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#projects-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active c-item">
+                        <img src="images/scratch_gameplay.png" class="d-block w-100 c-img" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h1 class="mb-1">Scratch</h1>
+                            <h5 class="mb-1">A star collector game in the visual programming language of Scratch</h5>
+                        </div>
+                    </div>
+                      <div class="carousel-item c-item">
+                        <img src="images/tideman_cropped.png" class="d-block w-100 c-img" alt="...">
+                        <div class="carousel-caption d-md-block move-caption-center">
+                            <h1>Algorithms</h1>
+                            <h5>The tideman challenge</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="images/sobel_edge_detection.png" class="d-block w-100 c-img" alt="...">
+                        <div class="carousel-caption d-md-block move-caption-center">
+                            <h1>Memory</h1>
+                            <h5>Image filtration</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item c-item">
+                        <img src="images/trivia_fullscreen_zoomout_interaction.png" class="d-block w-100 c-img" alt="...">
+                        <div class="carousel-caption d-md-block">
+                            <h1 class="mb-1">HTML, CSS, JavaScript</h1>
+                            <h5 class="mb-1">An interactive trivia site</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#projects-carousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#projects-carousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="about-me">
+            <h3>More About Me</h3>
+            <ul class="favorites-ul">
+                <li class="favorites-list"><a class="favorites-link" href="hobbies.html">Hobbies</a></li>
+                <li class="favorites-list"><a class="favorites-link" href="travel.html">Travel Spots</a></li>
+                <li class="favorites-list"><a class="favorites-link" href="food.html">Food!</a></li>
+            </ul>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

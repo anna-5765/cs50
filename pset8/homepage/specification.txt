@@ -1,0 +1,22 @@
+#10 HTML Tags
+1. <meta>
+2. <table>
+3. <td>
+4. <button>
+5. <svg>
+6. <ul>
+7. <li>
+8. <form>
+9. <input>
+10. <img>
+
+#5 CSS Properties
+1. font-family
+2. font-weight
+3. border-radius
+4. justify-content
+5. margin
+
+I used JavaScript to code my search button response and professional info
+text change, and Bootstrap to create my dropdown menu, professional info
+flush list, and project carousel.
