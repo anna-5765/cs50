@@ -20,4 +20,6 @@ Artificial Intelligence
 Week 7: SQL  
 &nbsp;&nbsp;&nbsp;🏁 Fiftyville (log.sql)(search database, solve crime)  
 Week 8: HTML, CSS, JavaScript  
+&nbsp;&nbsp;&nbsp;🏁 Homepage (index.html)(main.js)(styles.css)  
+Week 9: Flask
 
