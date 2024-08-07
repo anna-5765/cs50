@@ -21,5 +21,7 @@ Week 7: SQL
 &nbsp;&nbsp;&nbsp;🏁 Fiftyville (log.sql)(search database, solve crime)  
 Week 8: HTML, CSS, JavaScript  
 &nbsp;&nbsp;&nbsp;🏁 Homepage (index.html)(main.js)(styles.css)  
-Week 9: Flask
+Week 9: Flask  
+&nbsp;&nbsp;&nbsp;🏁 Finance (app.py)(Python + SQL + HTML/CSS)  
+Week 10: Cybersecurity  
 
