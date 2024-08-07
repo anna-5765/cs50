@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quoted
+{% endblock %}
+
+{% block main %}
+    <body action="/quoted" method="get">
+        <div class="mb-3">
+            <p autocomplete="off" autofocus class="form-control mx-auto w-auto" style="border:none;" name="quote" type="text">
+            A share of {{ symbol }} costs {{ amount }}.
+            </p>
+        </div>
+    </body>
+{% endblock %}
